@@ -235,7 +235,7 @@
   padding-bottom: 0px;
 }
 
-.fact-content h1 {
+.fact-content h1,.ensure-h1 {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 700;
@@ -245,7 +245,7 @@
   margin-bottom: 24px;
 }
 
-.fact-content p {
+.fact-content p,.ensure-p {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
@@ -299,6 +299,42 @@
   font-size: 20px;
   line-height: 23px;
   color: #727272;
+}
+
+/* Ensure CSS */
+
+.ensure-Section{
+  padding: 75px 250px;
+  padding-bottom: 0px;
+}
+
+.ensure-h1{
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.ensure-p{
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.ensure-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+
+.ensure-bg h1, .ensure-bg p{
+  font-family: "Work Sans";
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.ensure-bg p{
+  font-weight: 500;
+  color: #424242;
+  margin-top: 0;
 }
 
 /* Sponsor Section CSS */
@@ -433,7 +469,7 @@ color: #424242;
         margin-top: 15px;
         text-align: center;
         height: 360px;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
 
     .architect-img{
@@ -454,6 +490,27 @@ color: #424242;
     .fact-section {
         padding: 25px;
       }
+    
+    /* Fact CSS */
+
+
+    /* Ensure CSS */
+
+    .ensure-Section{
+      padding: 25px;
+      padding-bottom: 0px;
+    }
+
+    .ensure-grid{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 30px;
+    }
+
+    ..ensure-p{
+      margin-bottom: 30px;
+      text-align: center;
+    }
 
     /* Fact grid Section CSS */
 
