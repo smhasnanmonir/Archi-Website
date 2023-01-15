@@ -181,10 +181,10 @@
   margin-bottom: 30px;
 }
 
-.card{
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-    border-radius: 8px;
-    margin-bottom: 5px;
+.card {
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 5px;
 }
 
 .feature-card {
@@ -235,7 +235,8 @@
   padding-bottom: 0px;
 }
 
-.fact-content h1,.ensure-h1 {
+.fact-content h1,
+.ensure-h1 {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 700;
@@ -245,7 +246,8 @@
   margin-bottom: 24px;
 }
 
-.fact-content p,.ensure-p {
+.fact-content p,
+.ensure-p {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
@@ -274,9 +276,9 @@
   cursor: pointer;
 }
 
-.fact-info:hover{
-    transform: rotate(5deg);
-    background-color: #4e4c4c3f;
+.fact-info:hover {
+  transform: rotate(5deg);
+  background-color: #4e4c4c3f;
 }
 
 .fact-info img {
@@ -303,35 +305,36 @@
 
 /* Ensure CSS */
 
-.ensure-Section{
+.ensure-Section {
   padding: 75px 250px;
   padding-bottom: 0px;
 }
 
-.ensure-h1{
+.ensure-h1 {
   margin-bottom: 5px;
   text-align: center;
 }
 
-.ensure-p{
+.ensure-p {
   margin-bottom: 75px;
   text-align: center;
 }
 
-.ensure-grid{
+.ensure-grid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
-.ensure-bg h1, .ensure-bg p{
+.ensure-bg h1,
+.ensure-bg p {
   font-family: "Work Sans";
   margin-bottom: 10px;
   font-weight: 600;
   margin-top: 15px;
 }
 
-.ensure-bg p{
+.ensure-bg p {
   font-weight: 500;
   color: #424242;
   margin-top: 0;
@@ -340,7 +343,7 @@
 /* Sponsor Section CSS */
 
 .sponsor-section {
-  padding: 180px 240px;
+  padding: 90px 240px;
   padding-bottom: 0px;
 }
 
@@ -369,189 +372,190 @@
   margin-bottom: 50px;
 }
 
-.sponsor-grid{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    justify-content: space-between;
+.sponsor-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
 }
 
-.sponsor-img-div img{
-        filter: grayscale(100%);
+.sponsor-img-div img {
+  filter: grayscale(100%);
 }
 
 /* Footer Section CSS */
 
-.footer{
-    padding: 130px 240px;
-    padding-bottom: 216px;
+.footer {
+  padding: 130px 240px;
+  padding-bottom: 216px;
 }
 
-.footer-content{
-    padding: 38px 210px;
-    background-color: #FFF4E7;;
-    border-radius: 8px;
+.footer-content {
+  padding: 38px 210px;
+  background-color: #fff4e7;
+  border-radius: 8px;
 }
 
-.footer-content p{
-    font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-color: #424242;
+.footer-content p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #424242;
 }
 
 @media screen and (max-width: 576px) {
-    /* Navbar CSS */
-  
-    .navbar {
-      padding: 20px 15px;
-      align-items: center;
-      justify-content: space-between;
-      flex-direction: column;
-      text-align: center;
-      gap:10px
-    }
+  /* Navbar CSS */
 
-    .nav-ul{
-        gap:15px;
-    }
+  .navbar {
+    padding: 20px 15px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
 
-    .navbar h1, .header-content h1,.fact-content h1,.sponsor-content h1 {
-        font-size: 35px;
-        margin-bottom: 10px;
-        line-height: 45px;
-    }
+  .nav-ul {
+    gap: 15px;
+  }
 
-    /* Header Section CSS */
+  .navbar h1,
+  .header-content h1,
+  .fact-content h1,
+  .sponsor-content h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    line-height: 45px;
+  }
 
-    .header-content {
-        padding: 25px;
-        text-align: center;
-        padding-bottom: 0;
-      }
-    
-    .header-img-div {
-        padding: 10px;
-      }
-    
-    .header-img-div img{
-        width: 100%;
-    }
+  /* Header Section CSS */
 
-    /* Quick List CSS */
+  .header-content {
+    padding: 25px;
+    text-align: center;
+    padding-bottom: 0;
+  }
 
-    .quick-list{
-        padding: 25px;
-    }
+  .header-img-div {
+    padding: 10px;
+  }
 
-    .quick-list-main-div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-      }
+  .header-img-div img {
+    width: 100%;
+  }
 
-    .quick-list-gallary {
-        grid-template-columns: repeat(1,1fr);
-    }
+  /* Quick List CSS */
 
-    /* Feature Section */
+  .quick-list {
+    padding: 25px;
+  }
 
-    .feature-section{
-        display: block;
-        padding: 25px;
-        padding-bottom: 0px;
-    }
+  .quick-list-main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
 
-    .feature-section-img{
-        margin-top: 15px;
-        text-align: center;
-        height: 360px;
-        margin-bottom: 30px;
-    }
+  .quick-list-gallary {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .architect-img{
-        width: 75%;
-    }
+  /* Feature Section */
 
-    .float-btn{
-        padding: 0px;
-        font-size: 22px;
-        line-height: 35px;
-        height: 120px;
-        width: 160px;
-        float: none;
-    }
+  .feature-section {
+    display: block;
+    padding: 25px;
+    padding-bottom: 0px;
+  }
 
-    /* Fact Section CSS */
+  .feature-section-img {
+    margin-top: 15px;
+    text-align: center;
+    height: 360px;
+    margin-bottom: 30px;
+  }
 
-    .fact-section {
-        padding: 25px;
-      }
-    
-    /* Fact CSS */
+  .architect-img {
+    width: 75%;
+  }
 
+  .float-btn {
+    padding: 0px;
+    font-size: 22px;
+    line-height: 35px;
+    height: 120px;
+    width: 160px;
+    float: none;
+  }
 
-    /* Ensure CSS */
+  /* Fact Section CSS */
 
-    .ensure-Section{
-      padding: 25px;
-      padding-bottom: 0px;
-    }
+  .fact-section {
+    padding: 25px;
+  }
 
-    .ensure-grid{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-      gap: 30px;
-    }
+  /* Fact CSS */
 
-    ..ensure-p{
-      margin-bottom: 30px;
-      text-align: center;
-    }
+  /* Ensure CSS */
 
-    /* Fact grid Section CSS */
+  .ensure-Section {
+    padding: 25px;
+    padding-bottom: 30px;
+  }
 
-    .fact-info-grid {
-        display: grid;
-        padding: 25px;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 15px;
-        padding-bottom: 0px;
-        justify-items: center;
-      }
-    
-      /* Sponsor Section CSS */
+  .ensure-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
 
-      .sponsor-section {
-        padding: 25px;
-        padding-bottom: 0px;
-      }
+  .ensure-p {
+    margin-bottom: 30px;
+    text-align: center;
+  }
 
-      .sponsor-grid{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        justify-items: center;
-        gap: 35px;
-    }
+  /* Fact grid Section CSS */
 
-    /* Footer Section CSS */
+  .fact-info-grid {
+    display: grid;
+    padding: 25px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    padding-bottom: 0px;
+    justify-items: center;
+  }
 
-    .footer {
-        padding: 25px;
-        margin-bottom: 20px;
-    }
+  /* Sponsor Section CSS */
 
-    .footer-content{
-        padding: 20px;
-        background-color: #FFF4E7;
-        border-radius: 8px;
-    }
+  .sponsor-section {
+    padding: 25px;
+    padding-bottom: 0px;
+  }
 
-    .footer-content p{
+  .sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 35px;
+  }
+
+  /* Footer Section CSS */
+
+  .footer {
+    padding: 25px;
+    margin-bottom: 20px;
+  }
+
+  .footer-content {
+    padding: 20px;
+    background-color: #fff4e7;
+    border-radius: 8px;
+  }
+
+  .footer-content p {
     font-size: 12px;
-    }
-
-}  
+  }
+}
