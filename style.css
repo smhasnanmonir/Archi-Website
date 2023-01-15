@@ -343,6 +343,8 @@
         filter: grayscale(100%);
 }
 
+/* Footer Section CSS */
+
 .footer{
     padding: 130px 240px;
     padding-bottom: 216px;
@@ -364,6 +366,134 @@ text-align: center;
 color: #424242;
 }
 
-@media only screen (min-width:576px) {
+@media screen and (max-width: 576px) {
+    /* Navbar CSS */
+  
+    .navbar {
+      padding: 20px 15px;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      text-align: center;
+      gap:10px
+    }
+
+    .nav-ul{
+        gap:15px;
+    }
+
+    .navbar h1, .header-content h1,.fact-content h1,.sponsor-content h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+        line-height: 45px;
+    }
+
+    /* Header Section CSS */
+
+    .header-content {
+        padding: 25px;
+        text-align: center;
+        padding-bottom: 0;
+      }
     
-}
+    .header-img-div {
+        padding: 10px;
+      }
+    
+    .header-img-div img{
+        width: 100%;
+    }
+
+    /* Quick List CSS */
+
+    .quick-list{
+        padding: 25px;
+    }
+
+    .quick-list-main-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+
+    .quick-list-gallary {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /* Feature Section */
+
+    .feature-section{
+        display: block;
+        padding: 25px;
+        padding-bottom: 0px;
+    }
+
+    .feature-section-img{
+        margin-top: 15px;
+        text-align: center;
+        height: 370px;
+    }
+
+    .architect-img{
+        width: 75%;
+    }
+
+    .float-btn{
+        padding: 0px;
+        font-size: 22px;
+        line-height: 35px;
+        height: 120px;
+        width: 160px;
+        float: none;
+    }
+
+    /* Fact Section CSS */
+
+    .fact-section {
+        padding: 25px;
+      }
+
+    /* Fact grid Section CSS */
+
+    .fact-info-grid {
+        display: grid;
+        padding: 25px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        padding-bottom: 0px;
+        justify-items: center;
+      }
+    
+      /* Sponsor Section CSS */
+
+      .sponsor-section {
+        padding: 25px;
+        padding-bottom: 0px;
+      }
+
+      .sponsor-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        gap: 35px;
+    }
+
+    /* Footer Section CSS */
+
+    .footer {
+        padding: 25px;
+        margin-bottom: 20px;
+    }
+
+    .footer-content{
+        padding: 20px;
+        background-color: #FFF4E7;
+        border-radius: 8px;
+    }
+
+    .footer-content p{
+    font-size: 12px;
+    }
+
+}  
