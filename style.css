@@ -432,7 +432,8 @@ color: #424242;
     .feature-section-img{
         margin-top: 15px;
         text-align: center;
-        height: 370px;
+        height: 360px;
+        margin-bottom: 15px;
     }
 
     .architect-img{
